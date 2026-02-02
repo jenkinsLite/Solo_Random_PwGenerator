@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="border">
+            <div>
+                <h1>Generate a </h1>
+                <h1 class="green-txt">random password</h1>
+                <p>Never use an insecure password again</p>
+            </div>
+            <div class="pw-options">
+                <label>Length (8-20 char)</label>
+                <input type="number" id="pw-len" step="1" min="8" max="20">
+                <label>Use Numbers</label>
+                <input type="checkbox" class="checkbox" id="num-toggle" value="none">
+                <label>Use Symbols</label>
+                <input type="checkbox" class="checkbox" id="sym-toggle" value="none">
+            </div>
+            <button id="pw-btn">Generate Passwords</button>
+            <div class="div-line"></div>
+            <div class="pw-display">
+                <p class="pw" id="pw1">&nbsp;</p>
+                <p class="pw" id="pw2">&nbsp;</p>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

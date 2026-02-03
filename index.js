@@ -6,10 +6,10 @@ let allCharacters = alphaCharacters
 let mode = "dark"
 let useNumbers = false;
 let useSymbols = false;
-let pwLength = document.querySelector("#pw-len") /* need to adjust this in html */
-let pwBtn = document.querySelector("#pw-btn")
-let pw1 = document.querySelector("#pw1")
-let pw2 = document.querySelector("#pw2")
+const pwLength = document.querySelector("#pw-len") /* need to adjust this in html */
+const pwBtn = document.querySelector("#pw-btn")
+const pw1 = document.querySelector("#pw1")
+const pw2 = document.querySelector("#pw2")
 
 function getAllCharacters() {
 
